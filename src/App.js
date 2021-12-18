@@ -14,14 +14,7 @@ function App() {
       price: 69000,
 
   },
-  {
-    id: 1,
-    img:"https://i.ibb.co/WgXXdJz/img1.jpg",
-    title: 'Apple 11 Pro',
-    qty: 2,
-    price: 49000,
-
-},
+  
   ])
   const [product, setProduct] = useState([
 

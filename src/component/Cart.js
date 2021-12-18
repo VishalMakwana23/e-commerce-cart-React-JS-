@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { useState } from 'react';
 const Cart = ({cart}) => {
 
     
@@ -10,10 +10,10 @@ const Cart = ({cart}) => {
 
 
     const isEmpty = true;
-    const totalUniqueItems = 2;
+    const totalUniqueItems = 0;
     const items = 0;
-    const totalItems = 2;
-    const carttotal = 3;
+    const totalItems = 0;
+    const carttotal = 0;
 
     const updateItemQuantity = 0;
     const removeItem = 0;
@@ -47,7 +47,7 @@ const Cart = ({cart}) => {
                 </div>
 
                 <div className="col-auto ms-auto  ">
-                        <h2>Total Price: 167000  Qty({carttotal})</h2>
+                        <h2>Total Price: {carttotal}</h2>
                 </div>
                 <div className="col-auto">
                     <button className="btn btn-danger m-2">Clear</button>
