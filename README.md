@@ -19,3 +19,6 @@
 ![Cart-App](https://user-images.githubusercontent.com/70998696/146641594-dd66eab1-0277-426d-aad3-95236a573d4b.png)
 
 
+##
+
+Some functionality still remain to be posted soon...
